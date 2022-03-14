@@ -80,4 +80,4 @@ export class MyElement extends LitElement {
 
 }
 
-window.customElements.define('my-element', MyElement)
+window.customElements.define('my-app', MyElement)
