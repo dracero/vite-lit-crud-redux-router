@@ -51,6 +51,7 @@ class ReadOne extends connect(store)(LitElement) {
       .catch(error => console.log('error', error));
       this.email=""
   }
+  //esto se puede dividir en dos funciones
   fetchReadOneU(){
     var myHeaders = new Headers();
     myHeaders.append("Authorization", "Bearer 0a85f0126790d4f1f65a226bce0141381878ad14f9e14df033ba84b61fadc575");
