@@ -14,11 +14,16 @@
     "build": "vite build"
   },
   "dependencies": {
+    "@material/data-table": "^13.0.0",
     "@material/mwc-dialog": "^0.25.3",
+    "@material/mwc-formfield": "^0.25.3",
     "@material/mwc-list": "^0.25.3",
     "@material/mwc-textfield": "^0.25.3",
     "@material/textfield": "^13.0.0",
-    "lit": "^2.0.2"
+    "lit": "^2.0.2",
+    "lit-element-router": "^2.0.3",
+    "pwa-helpers": "^0.9.1",
+    "redux": "^4.1.2"
   },
   "devDependencies": {
     "vite": "^2.8.0"
